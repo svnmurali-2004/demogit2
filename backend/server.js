@@ -10,6 +10,7 @@ const path=require("path")
 require("dotenv").config()
 //hello by main person
 //hello by murali
+//hello by murali
 app.use(cors())
 app.use(express.json())  
 app.use("/api/users/",authRouter)
