@@ -8,8 +8,7 @@ const authRouter=require("./routes/authRouter")
 const actionRouter=require("./routes/actionRouter")
 const path=require("path")
 require("dotenv").config()
-
-
+//hello by main person
 
 app.use(cors())
 app.use(express.json())  
